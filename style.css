@@ -1,0 +1,252 @@
+body {
+    background-color:  #03001a;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* надпись левый верхний Головный, Правила гри, Таблиця Лідерів */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #03001a; 
+    padding: 10px;
+    margin-left: 40px; 
+}
+
+.item {
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Manrope;
+    margin-right: 20px; 
+    color: white; 
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer; 
+}
+
+
+.item:nth-child(1) {
+    margin-right: 750px; 
+}
+
+.rectangle {
+    display: flex;
+    padding: 7px 32px;
+    align-items: center;
+    gap: 14px;
+    border-radius: 20px;
+    background-color:#03001a;
+    color: white; 
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid rgba(134, 88, 249, 1) 
+   
+}
+
+/* Стили для надписи "Combat Arena" */
+.combat-arena {
+    position: absolute;
+    width: 960px;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: "Jx Tabe DEMO", Arial, sans-serif;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180px;
+    background: linear-gradient(46deg, #FFF 0%, #6033BF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 50px;
+    margin-top: 150px;
+    z-index: 2;
+}
+
+.image-container {
+    position: absolute;
+    width: 850px;
+    height: 610px;
+    transform: rotate(5.85deg);
+    flex-shrink: 0;
+    background: url('1.png') ;
+    margin-top: 100px;
+    margin-left: 630px;
+    z-index: 1;
+}
+
+/* Стили для надписи "Combat Arena" */
+.combat-arena1 {
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0.5; 
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 50px;
+    position: relative; 
+    top: 600px; 
+}
+
+/* Стили для контейнера внутри текста */
+.highlight {
+    background-color: #03001a; 
+    color: rgb(255, 255, 255); 
+    padding: 2px 5px; 
+    border-radius: 4px; 
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+/* Стили для кнопки "Почати дуель" */
+.start-duel-button {
+    width: 270px; 
+    height: 50px; 
+    padding: 12px 80px; 
+    border-radius: 18px; 
+    border: 2px ;
+    gap: 10px; 
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    font-size: 17px;
+    background: linear-gradient(180deg, rgba(66, 30, 143, 0.4) 0%, rgba(114, 63, 224, 0.4) 100%),
+                linear-gradient(180deg, rgba(150, 111, 234, 0.19) 0%, #966FEA 100%);
+    box-shadow: 0px 12px 40px -10px rgba(128, 85, 219, 0.8); 
+    color: white; 
+}
+
+
+/* Стили для контейнера "Правила гри" */
+.rules-container {
+    width: 400px; 
+    height: 26px; 
+    position: relative; 
+    top: 1000px; 
+    left: 550px; 
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 40px; 
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+/* Стили для контейнера с картинкой */
+.image-container1 {
+    position: relative;
+    top: 20px; /* Отступ от текста */
+    text-align: center;
+    top: 1100px;
+}
+
+
+/* Стили для изображения внутри контейнера */
+.image-container1 img {
+    width: 1000px; /* Задаем желаемую ширину изображения */
+}
+
+/* Стили для прямоугольника */
+.rectangle2 {
+    width: 820px;
+    height: 50px;
+    background: rgba(4, 0, 27, 1);
+    position: relative;
+    top: 1200px;
+    left: 350px;
+    box-shadow: 0px -50px 200px 0px rgba(4, 0, 27, 1), 0px 150px 100px 0px rgba(151, 71, 255, 0.7);
+}
+
+/* Стили для родительского контейнера */
+.leaderboard-container {
+    position: absolute;
+   
+}
+
+/* Стили для текста "Таблиця лідерів" */
+.leaderboard-text {
+    position: absolute;
+    top: 100px;
+    left: 275px;
+    color: white;
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.leaderboard-image {
+    position: absolute;
+    text-align: center;
+    width: 1240px;
+    top: 150px;
+    left: -200px;
+}
+
+/* Стили для контейнера внизу страницы */
+.footer-container {
+    width: 1515px;
+    height: 89px;
+    position: absolute;
+    top: 3600px;
+    left: 0px;
+    background-color:rgba(4, 0, 27, 1);
+}
+
+
+/* Стили для текста "Combat Arena" */
+.combat-text {
+    color: white; 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Стили для текста "© 2023 All rights reserved" */
+.rights-text {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    color: white; 
+    font-size: 16px;
+}
+
+/* Стили для кнопки */
+.footer-button {
+    width: 400px; 
+    height: 60px; 
+    padding: 12px 30px; 
+    border-radius: 18px; 
+    border: 2px solid rgba(134, 88, 249, 1) ; 
+    gap: 32px; 
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px; 
+    bottom: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-image:  linear-gradient(180deg, rgba(66, 30, 143, 0.4) 0%, rgba(4, 0, 27, 1) 100%),
+    linear-gradient(180deg, rgba(4, 0, 27, 1) 0%, #966FEA 100%);
+                      
+}
+
+/* Стили для изображения внутри кнопки */
+.button-image {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 0px; 
+    margin-top: 0px;
+    background-image: url('4.png'); 
+    background-size: cover;
+}
